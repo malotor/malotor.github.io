@@ -1,21 +1,18 @@
-name: John Doe
-bio: 'A Man who travels the world eating noodles'
+name: Manel López Torrent
+bio: 'Project Manager and Agile Web Developer'
 picture: 'assets/images/profile.jpg'
 
-url: http://sergiokopplin.github.io/indigo
+url: http://malotor.github.io
 # your url: http://USERNAME.github.io/
 permalink: /:title/
 
 analytics: 'UA-MYANALYTICS'
 disqus: mydisqus
-facebook: myfacebook
-twitter: mytwitter
-instagram: myinstagram
-linkedin: mylinkedin
-youtube: myyoutube
-spotify: myspotify
-github: mygithub
-email: myemail@gmail.com
+twitter: mloptor
+instagram: ~
+linkedin: manuellopeztorrent
+github: malotor
+email: malotor@gmail.com
 
 exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor]
 

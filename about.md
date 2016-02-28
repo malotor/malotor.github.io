@@ -9,19 +9,15 @@ img { width: 50%; margin: 0 auto; display: block; }
 
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+I’m IT engineer specialized in web development. I have more than 10 years experience in web projects as full stack developer.
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+Interested in Agile Software Development Methodologies, TDD and BDD, Design patterns and refactoring techniques. For the last year I was focused in Domain Driven Design and software architecture.
+
+I´m specialized in PHP and the most important frameworks like Drupal 8 , Symfony2 and Laravel. I´m very interested in languages like Python and Ruby too. 
+
+I have a pro-active role in PHPValencia community. My last session was “Decoupling Business Logic from the framework and hexagonal architecture” in DrupalCamp 2015.
+
+Nowadays, I´m working on Prosodie Capgemini  as a Project Manager in several projects for Movistar.
 
 <h2>Skills</h2>
 
