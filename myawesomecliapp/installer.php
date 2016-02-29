@@ -1,5 +1,9 @@
 <?php
 
+
+define("APP_NAME", "My Awesome Cli App");
+define("MANIFEST", "https://malotor.github.io/myawesomecliapp/manifest.json");
+
 namespace
 
 {
@@ -18,7 +22,7 @@ namespace
         }
     );
 
-    echo "Box Installer$n";
+    echo APP_NAME . " Installer$n";
     echo "=============$n$n";
 
     echo "Environment Check$n";
@@ -144,7 +148,7 @@ namespace
     // Retrieve manifest
     echo " - Downloading manifest...$n";
 
-    $manifest = file_get_contents('https://box-project.github.io/box2/manifest.json');
+    $manifest = file_get_contents(MANIFEST);
 
     echo " - Reading manifest...$n";
 
@@ -164,7 +168,7 @@ namespace
         echo " x No application download was found.$n";
     }
 
-    echo " - Downloading Box v", Dumper::toString($item->version), "...$n";
+    echo " - Downloading ".APP_NAME." v", Dumper::toString($item->version), "...$n";
 
     file_put_contents($item->name, file_get_contents($item->url));
 
@@ -186,11 +190,11 @@ namespace
         throw $e;
     }
 
-    echo " - Making Box executable...$n";
+    echo " - Making ".APP_NAME." executable...$n";
 
     @chmod($item->name, 0755);
 
-    echo "{$n}Box installed!$n";
+    echo "{$n}".APP_NAME." installed!$n";
 
     /**
      * Checks a condition, outputs a message, and exits if failed.
