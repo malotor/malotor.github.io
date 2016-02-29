@@ -1,15 +1,14 @@
 <?php
 
-
-define("APP_NAME", "My Awesome Cli App");
-define("MANIFEST", "https://malotor.github.io/myawesomecliapp/manifest.json");
-
 namespace
 
 {
     use Herrera\Version\Comparator;
     use Herrera\Version\Dumper;
     use Herrera\Version\Parser;
+
+    define("APP_NAME", "My Awesome Cli App");
+    define("MANIFEST", "https://malotor.github.io/myawesomecliapp/manifest.json");
 
     $n = PHP_EOL;
 
